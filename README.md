@@ -4,6 +4,7 @@ REST API for an online store: product catalogue, customer accounts, and orders w
 
 It powers the [Ecommerce storefront](https://github.com/sheelasaivenkatareddy/Ecommerce).
 
+[![CI](https://github.com/sheelasaivenkatareddy/Ecom/actions/workflows/ci.yml/badge.svg)](https://github.com/sheelasaivenkatareddy/Ecom/actions/workflows/ci.yml)
 ![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933?logo=nodedotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-5-000000?logo=express&logoColor=white)
@@ -21,7 +22,7 @@ It powers the [Ecommerce storefront](https://github.com/sheelasaivenkatareddy/Ec
 - **Admin tools**: create, update and archive products; move orders through fulfilment
 - **Zero-setup demo mode**: without `DATABASE_URL`, the API runs on an in-memory PostgreSQL emulation with seeded data
 - Request validation with Zod, consistent JSON errors, security headers with Helmet, and CORS
-- 24 integration tests (Vitest + Supertest), plus linting and strict type checks
+- 24 integration tests (Vitest + Supertest), with lint, type checks, tests and a build on every push
 
 ## Tech stack
 
@@ -33,7 +34,7 @@ It powers the [Ecommerce storefront](https://github.com/sheelasaivenkatareddy/Ec
 | Authentication | JSON Web Tokens, bcrypt |
 | Validation | Zod |
 | Testing | Vitest, Supertest |
-| Tooling | ESLint |
+| Tooling | ESLint, GitHub Actions |
 
 ## Getting started
 
